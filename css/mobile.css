@@ -14,14 +14,10 @@
 }
 #contact .container .contact{
     flex-direction: column;
-    min-height:400px;
 }
-#contact .container .contact .text{
-    height: 40%;
-}
+
 #contact .container .contact .form{
     width: 90%;
-    height: 60%
 }
 #story .container .story{
     margin-bottom: 5rem;
@@ -41,8 +37,6 @@ footer .container #text{
 #contact .container .contact .text .heading{
     font-size: 1.25rem;
     letter-spacing: -1px;
-    margin-top:1rem;
-    height: 1.5rem;
 }
 #contact .container .contact .text .prg{
     font-size: 0.6rem;
