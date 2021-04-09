@@ -1,0 +1,33 @@
+#menu ul li a{
+    font-size: 0.5rem;
+}
+#home .container .entry .text #p1{
+    font-size:0.5rem;
+    letter-spacing: 0px;
+}
+#home .container .entry .text #p2{
+    font-size:0.25rem;
+}
+#story .container .story{
+    min-height: 200px;
+    
+}
+#story .container .story .image{
+    height: 100px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+#story .container .story .image .heading{
+    font-size: 0.68rem;
+}
+#story .container .story .text p{
+    font-size: 0.4rem;
+    
+}
+#contact .container .contact .text .heading{
+    font-size: 1.25rem;
+    letter-spacing: -1px;
+}
+#contact .container .contact .text .prg{
+    font-size: 0.6rem;
+}

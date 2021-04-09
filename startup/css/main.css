@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+html{
+    font-family: "Open Sans",sans-serif;
+}
+#navbar{
+    padding: 0 0.90rem;
+    padding-left: 0;
+    opacity: 0.6;
+    display: flex;
+    justify-content:space-between ;
+    margin: 10px 0;
+    letter-spacing: 0px;
+    font-family: "Dancing Script",'Open Sans',sans-serif;
+}
+#menu{
+    opacity: 0.6;
+    display: flex;
+    justify-content:space-between ;
+    padding: 0 1rem;
+    padding-left: 0;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+#menu ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    
+}
+#menu ul li a{
+    color: #000;
+    margin-top: 1.25rem;
+    padding-left: 0;
+    padding: 0 0.25rem;
+    letter-spacing: -1px;
+    margin-right: 5px;
+}
+#menu ul li a:hover{
+    border-style: solid;
+    border-radius: 0.5rem;
+    border-color: rgb(158, 158, 158);
+    opacity: 0.2;
+    
+}
+/* Home Part */
+#home .container .entry{
+    
+    display: flex;
+    position: relative;
+    max-height: 400px;
+    width: 100%;
+    margin-bottom: 14rem;
+}
+#home .container .entry .text{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    
+}
+#home .container .entry .text #p1{
+    
+    font-size: 2.25rem;
+    text-align: start;
+    font-family: 'Poppins', sans-serif;
+    width: 60%;
+    letter-spacing: -3px;
+    padding: 0.8%;
+}
+#home .container .entry .text #p2{
+    
+    font-size: 1rem;
+    width: 60%;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0px;
+    opacity: 0.6;
+    padding: 0.8%;
+    padding-left: 1.6%;
+}
+#home .container .entry .image{
+    
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    align-items: center;
+    padding-left: 5%;
+    
+}
+#home .container .entry .image img{
+    height: 100%;
+    width: 82%;
+}
+
+/*Story Part*/
+#story .container .story{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    min-height: 400px;
+    min-width: 90%;
+    overflow: hidden;
+    margin-bottom: 14rem;
+}
+#story .container .story .image{
+    margin-top: 2rem;
+    background-image: url(resimler/background.jpg);
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+  
+    
+    display: flex;
+    height: 600px;
+    min-width: 100%;
+    justify-content: center;
+    align-self: center;
+    overflow-y: hidden;
+    position: relative;
+    margin-bottom: 3rem;
+}
+#story .container .story .image .heading{
+    display: flex;
+    font-size: 4rem;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    width: 80%;
+    align-self: center;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0;
+}
+#story .container .story .text{
+    display: flex;
+    max-width: 80%;
+    flex-direction: column;
+    align-self: center;
+    
+
+}
+#story .container .story .text p{
+    
+    text-align: center;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+/* Contact Part */
+#contact .container .contact{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(255, 251, 244);
+    align-items: center;
+    margin-bottom: 14rem;
+}
+#contact .container .contact .text{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+    position: relative;
+    
+
+}
+#contact .container .contact .text .heading{
+    display: block;
+    height: 4rem;
+    width: 100%;
+    text-align: center;
+    margin: 1rem auto;
+    font-size: 2rem;
+    margin-top: 5rem;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: -3px;
+    
+}
+#contact .container .contact .text .prg{
+    height: 2rem;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0rem;
+    opacity: 0.6;
+    
+
+}
+#contact .container .contact .form{
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+    align-items: center;
+    padding: 0 auto;
+    
+}
+#contact .container .contact .form .form-control{
+    display: flex;
+    justify-content: start;
+    height: 2rem;
+    width: 40%;
+    align-items: center;
+    padding: 2%;
+}
+#contact .container .contact .form .form-control input{
+    width: 100%;
+    margin: 0%;
+    border: none;
+    background-color: rgb(255, 251, 244);
+    border-bottom: solid;
+}
+#contact .container .contact .form .form-control input:focus{
+    width: 100%;
+    margin: 0%;
+    border: none;
+    background-color: rgb(255, 251, 244);
+    border-bottom: solid;
+    outline: none;
+}
+#contact .container .contact .form .form-subject{
+    display: flex;
+    justify-content: start;
+    height: 2rem;
+    width: 76%;
+    align-items: center;
+}
+#contact .container .contact .form .form-subject input{
+    width: 100%;
+    margin: 0%;
+    border: none;
+    background-color: rgb(255, 251, 244);
+    border-bottom: solid;
+}
+#contact .container .contact .form .form-subject input:focus{
+    width: 100%;
+    margin: 0%;
+    border: none;
+    background-color: rgb(255, 251, 244);
+    border-bottom: solid;
+    outline: none;
+}
+#contact .container .contact .form .form-area{
+    display: flex;
+    justify-content: start;
+    width: 76%;
+    align-items: center;
+    position: relative;
+}
+#contact .container .contact .form .form-area textarea{
+    width: 100%;
+    height: 6rem;
+    border: none;
+    background-color: rgb(255, 251, 244);
+    border-bottom: solid;
+    padding: 0.5rem;
+    resize: none;
+}
+#contact .container .contact .form .form-area textarea:focus{
+    width: 100%;
+    height: 6rem;
+    border: none;
+    background-color: rgb(255, 251, 244);
+    border-bottom: solid;
+    padding: 0.5rem;
+    resize: none;
+    outline: none;
+}
+#contact .container .contact .form .btn-type{
+    display: block;
+    width: 76%;
+    margin-top: 2%;
+    padding: auto 1rem;
+    border-radius: 0.5rem;
+    height: 2rem;
+    background-color: black;
+    color: rgb(255, 251, 244);
+}
+#contact .container .contact .form .btn-type:active{
+    background-color: cornsilk;
+    color: black;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+#msg{
+    width: 76%;
+    text-align: center;
+    font-size: 0.75rem;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0rem;
+    margin: 1rem;
+}
+footer .icon{
+    
+    display: flex;
+    flex-direction: column;
+    max-height: 400px;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+footer  .icon ul{
+    
+    list-style-type: none;
+    display: flex;
+    margin-top: 1rem;
+    align-self: center;
+    padding: 0 0.25rem;
+    align-items: center;
+    
+}
+footer  .icon ul li{
+    padding: 0.5rem;
+}
+footer .container #text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    font-size: 0.75rem;
+    opacity: 0.8;
+}
+
