@@ -41,6 +41,7 @@ footer .container #text{
 #contact .container .contact .text .heading{
     font-size: 1.25rem;
     letter-spacing: -1px;
+    margin-top:1rem;
 }
 #contact .container .contact .text .prg{
     font-size: 0.6rem;
