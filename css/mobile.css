@@ -16,8 +16,12 @@
     flex-direction: column;
     min-height:400px;
 }
+#contact .container .contact .text{
+    height: 40%;
+}
 #contact .container .contact .form{
     width: 90%;
+    height: 60%
 }
 #story .container .story{
     margin-bottom: 5rem;
