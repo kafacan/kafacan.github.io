@@ -1,0 +1,42 @@
+
+#menu ul li a{
+    font-size: 0.75rem;
+}
+#home .container .entry{
+    margin-bottom: 6rem;
+}
+#home .container .entry .text #p1{
+    font-size: 0.9rem;
+    letter-spacing: -1px;
+}
+#home .container .entry .text #p2{
+    font-size: 0.5rem;
+}
+#contact .container .contact{
+    flex-direction: column;
+}
+#contact .container .contact .form{
+    width: 90%;
+}
+#story .container .story{
+    margin-bottom: 5rem;
+}
+#story .container .story .image{
+    height: 200px;
+}
+#story .container .story .image .heading{
+    font-size: 1.33rem;
+}
+#story .container .story .text p{
+    font-size: 0.6rem;
+}
+footer .container #text{
+    font-size: 00.5rem;
+}
+#contact .container .contact .text .heading{
+    font-size: 1.25rem;
+    letter-spacing: -1px;
+}
+#contact .container .contact .text .prg{
+    font-size: 0.6rem;
+}
