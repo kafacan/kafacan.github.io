@@ -1,0 +1,90 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/*header kısmı*/
+
+/*ürün kısmı*/
+#store .container{
+    width: 80%;    
+}
+
+#store .container .row{
+    min-height: 400px; 
+    width: 100%;
+    display: flex; 
+    justify-content:flex-start;
+    margin-bottom: 6rem;
+}
+.container .row .card{
+    width: 18rem ;
+    min-height: 400px; 
+    border: 0;
+    margin:  0.25rem 0;
+    margin-bottom: 1.5rem;
+}
+
+.container .row .card-body{
+    height: 250px;
+    background-color: rgb(121, 121, 121);
+    margin-bottom: 0.25rem;
+}
+.container .row .card .list-group-item{
+    font-family: 'Times New Roman', Times, serif;
+    border: 0;
+    padding-left: 0.3rem;
+    padding-bottom: 0;
+    padding-top: 0.1rem;
+    font-size: 1rem;
+    letter-spacing: 0;
+}
+.container .row .card #expl{
+    opacity: 0.6;
+}
+.container .row .card #price{
+    opacity: 0.8;
+    font-weight: bold;
+    
+}
+/*ürün menü kısmı*/
+#store .container #menu{
+   
+    list-style-type: none;
+    width: 100%;
+    padding: 0;
+    margin: 4rem 0;
+    margin-bottom: 3rem;
+    
+}
+#store .container #menu .list-group-item{
+    border: 0;
+    padding-left:0;
+}
+#store .container #menu .list-group-item a{
+    color: black;
+    border: 0;
+    text-decoration: none;
+    
+    
+}
+.active2 ,#store .container #menu .list-group-item a:hover{
+    text-decoration: underline;
+    font-size: 1.05rem;
+}
+#store .container #menu .list-group-item a:active{
+    text-decoration: underline;
+    
+}
+
+
+.btn-lg{
+    border-radius: 3rem;
+    margin-top: 3rem;
+    background-color: rgb(201, 193, 193);
+    padding: 0.5rem 3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+ .btn-lg:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}

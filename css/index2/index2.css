@@ -1,0 +1,121 @@
+#head2 .container{
+    width: 80%;
+}
+#head2 .row{
+    margin-top: 0;
+    min-height: 500px;
+}
+#head{ 
+    margin-bottom: 3rem;
+}
+#head .carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+.carousel-caption{
+    bottom: 250px;
+    left:220px;
+    color:#333;
+    text-align: left;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.carousel-caption h2{
+    
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    animation-delay: 1s;
+    margin-top: 1.5rem;
+    
+}
+#big-heading{
+    font-size: 60px;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    animation-delay: 2s;
+}
+.carousel-caption a{
+    margin-top: 10000rem;
+    display: inline;
+    padding: 0.75rem 2rem;
+    border-radius: 4rem;
+    background-color: rgb(75, 75, 219);
+    text-decoration: none;
+    font-size: 1rem;
+    color:white;
+    text-transform: uppercase;
+}
+.carousel-caption p{
+    margin-top: 3rem;
+    width: 10rem;
+    animation-delay: 3s;
+}
+.text-center{
+    position: relative;
+    text-align: left;
+    width: 368px; 
+    height: 248px;
+}
+
+.text-center .up-text h3{
+    font-size: 28px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    
+}
+.up-text p{
+    font-size: 14px;
+    color: #555;
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+.down-text{
+    margin-top: 5.75rem;
+    border-bottom: 2px solid #fff;
+    width: 6rem;
+    text-align: center;
+    visibility: hidden;
+    padding: 0%;
+}
+.down-text h3{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 500;
+    padding: 0%;
+    
+    
+}
+.text-center a{
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color:#333;
+    font-family: 'Poppins', sans-serif;
+    padding: 10%;
+    
+    
+    
+}
+.text-center a:hover{
+    background-color:rgb(75, 75, 219) ;
+    opacity: 0.6;
+    visibility: visible;
+    color: #fff;
+    
+}
+.text-center a:hover .up-text p{
+    color: #fff;
+}
+.text-center a:hover .down-text{
+    visibility: visible;
+    animation: fadeInUp;
+    animation-duration: 2s;
+}
